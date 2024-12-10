@@ -1,3 +1,11 @@
+
+
+I was unable to upload the movies and credits datasets I used for my project to the GitHub repository because they were too large so I have them linked here using Google Drive. 
+
+Movies csv file - https://drive.google.com/file/d/1v2puKrXmrI_oMk_Fr1TlX_ZeURnd40rA/view?usp=sharing
+
+Credits csv file - https://drive.google.com/file/d/13SZXW7jV1Ud0m9g9dC8z0nq8I9amVumV/view?usp=sharing
+
 To analyze the trends in the popularity of movie genres over time, I investigated the TMDb 5000 Movie Dataset for my final project. This dataset provides metadata for approximately 5,000 movies, including information on genres and release dates. The goal was to explore how the prominence of different genres has shifted over the decades and to identify any notable patterns or trends. This topic was chosen because it combines my interest in cinema with the techniques of data analysis taught during the course.
 
 The Rust program was developed to process the dataset. The script parsed the JSON-formatted genres column and aggregated the number of movies for each genre by year. Missing or incomplete entries, such as movies without a valid genre or release year, were excluded to maintain data integrity.
