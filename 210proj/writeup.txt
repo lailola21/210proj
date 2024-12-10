@@ -6,14 +6,22 @@ Movies Csv file - https://drive.google.com/file/d/1v2puKrXmrI_oMk_Fr1TlX_ZeURnd4
 
 Credits Csv file - https://drive.google.com/file/d/13SZXW7jV1Ud0m9g9dC8z0nq8I9amVumV/view?usp=sharing
 
-To analyze the trends in the popularity of movie genres over time, I investigated the TMDb 5000 Movie Dataset for my final project. This dataset provides metadata for approximately 5,000 movies, including information on genres and release dates. The goal was to explore how the prominence of different genres has shifted over the decades and to identify any notable patterns or trends. This topic was chosen because it combines my interest in cinema with the techniques of data analysis taught during the course.
+To analyze the trends in the popularity of movie genres over time, I investigated the TMDb 5000 Movie Dataset for my final project. 
+This dataset provides metadata for approximately 5,000 movies, including information on genres and release dates. 
+The goal was to explore how the prominence of different genres has shifted over the decades and to identify any notable patterns or trends.
+This topic was chosen because it combines my interest in cinema with the techniques of data analysis taught during the course.
 
-The Rust program was developed to process the dataset. The script parsed the JSON-formatted genres column and aggregated the number of movies for each genre by year. Missing or incomplete entries, such as movies without a valid genre or release year, were excluded to maintain data integrity.
+The Rust program was developed to process the dataset. The script parsed the JSON-formatted genres column and aggregated the number of movies for each genre by year. 
 
-Output: Running the Rust script generated a CSV file named genre_popularity_over_time.csv with the following format:
+Missing or incomplete entries, such as movies without a valid genre or release year, were excluded to maintain data integrity.
+
+For the output, Running the Rust script generated a CSV file named genre_popularity_over_time.csv with the following format:
+The year, genre, and count of however many were released that year. 
 
 Then you can use a language of your choice to visualize the data in a way you seem fit, I generated it in python in the test.py file. The image can be found in the project's root directory.
 
-This project demonstrates how data analysis and visualization can reveal patterns in the film industry. It highlights the evolution of genres in response to societal and technological changes. The findings can guide decisions in production and streaming strategies, making this study valuable for industry stakeholders.
+This project demonstrates how data analysis and visualization can reveal patterns in the film industry.
+It highlights the evolution of genres in response to societal and technological changes.
+The findings can guide decisions in production and streaming strategies, making this study valuable for industry stakeholders.
 
 For Future work, Expanding the analysis to include factors like budgets or revenues could uncover deeper connections between genre trends and financial success. Adding data from other sources could further enhance the insights.
